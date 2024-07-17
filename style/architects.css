@@ -164,12 +164,34 @@ main > section{
 .Features  img{
     margin-top: 40px;
 }
+#Experience-badge{
+    padding: 42px 38px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+#Experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.pic-architect img{
+    width: 100%;
+}
 
-
+.foot{
+    margin: 20px auto;
+    border-radius: 8px;
+    background: rgb(255, 212, 160);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width:576px) {
     .navbar , 
     .nav-links ,
-    .teams{
+    .teams ,
+    .Features{
         flex-direction: column;
     }
     .team-image-container ,
@@ -190,10 +212,13 @@ main > section{
         margin: 40px;
     
     }
-   
+    #Experience-badge{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px){
-    .teams{
+    .teams , .Features{
         flex-direction: column;
     }
     .our-features{
@@ -205,6 +230,10 @@ main > section{
         justify-items: center;
         gap: 30px;
     }
-
+    #Experience-badge{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+   
 } 
  
